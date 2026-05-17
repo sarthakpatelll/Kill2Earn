@@ -1,0 +1,22 @@
+{
+  "name": "Kill2Earn",
+  "short_name": "Kill2Earn",
+  "description": "Free Fire Tournament Platform - Earn money per kill & booyah",
+  "start_url": "/kill2earn.php",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff5722",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-152.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
