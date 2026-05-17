@@ -6,7 +6,7 @@ session_start();
 $host = 'localhost';
 $dbname = 'kill2earn';
 $username = 'root';
-$password = '12/10/05';
+$password = '';
 
 // Initialize PDO
 $pdo = null;
@@ -206,7 +206,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 function handleLogin($pdo) {
     if (!empty($_POST['phone']) && !empty($_POST['password'])) {
         // Check for admin login
-        if ($_POST['phone'] === 'Sarthak' && $_POST['password'] === 'Sarthak12/10/2005') {
+        if ($_POST['phone'] === 'removing' && $_POST['password'] === 'removing') {
             // Set admin user session
             $_SESSION['user'] = [
                 'id' => 1,
